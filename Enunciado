@@ -1,0 +1,38 @@
+Programación 2:
+
+Segundo parcial
+
+Fecha de entrega: octubre 20 
+La empresa Ni_entiendo inc, famosa por sus consolas y juegos de video, lo ha contratado a usted
+para que les ayude a desarrollar una nueva aplicación basada en un juego de aventura. El juego tiene como objetivo buscar y capturar unos seres denominados pokemones, los cuales se encuentran escondidos en un tablero de juego.
+Para el desarrollo del juego se han definido los siguientes requerimientos:
+Campo de juego:
+El campo de juego se encuentra delimitado por una matriz de 6 filas x 6 columnas, en ella estarán ubicados los diferentes pokemones y sobre esta matriz se harán las diferentes jugadas.
+
+
+Llenar campo de juego:
+Este método referente a los pokemones, ubicación, nombre, combat_power, type. La ubicación (fila, columna) hace referencia a la posición dentro de la matriz que ocupara ese pokemon. Por ejemplo:
+Fila,columna,nombre, combat_power, type 4,5, pikachu,2000,electric
+
+La línea anterior indica que el pokemon llamado pikachu, estará ubicado en la fila 4, columna 5 de la matriz. Este pokemon tiene un combat_power de 2,000 y su type es electric.
+
+
+Buscar Pokemon
+La aplicación debe solicitar una ubicación dentro del tablero de donde se localizará el entrenador de pokemones (usted) y retornará un listado de los pokemones que se encuentren alrededor de esta ubicación.
+
+
+Agarrar Pokemon
+Este método le debe permitir al usuario de la aplicación ingresar una posición (fila, columna) que se encuentre dentro del campo de juego y retornar si en esa casilla existe un pokemon. De ser así debe trasladarlo a PokeBolsa. Si no existe un pokemon en esta casilla, debe informar al usuario.
+ 
+Ordenar por Combat Power
+Este método le debe permitir al usuario de la aplicación ver un listado de los pokemones que actualmente tiene en su PokeBolsa, ordenados de menor a mayor Combat Power.
+verPokebolsa
+Sobre los Pokemones
+De cada pokemon se debe almacenar la siguiente información: nombre, combat Power y type. Para ello instancia un objeto por cada pokemon creado
+La información de los pokemones debe ser ingresada por medio de un formulario Puede haber hasta 6 pokemones en el juego
+
+Condiciones de entrega:
+1.	Cree una clase pokemon y una clase juego, implemente los compenentes de GUI necesarios para diseñar y lograr su funcionamiento.
+2.	En cualquier momento puede salir del juego
+3.	La entrega final del proyecto será el 20, ese día se debe entregar un programa en java corriendo y cumpliendo con las condiciones especificadas anteriormente.
+4.	El programa debe presentar un menú, que le permita al usuario navegar por cada una de las opciones anteriores (métodos), para ejecutar sus funcionalidades.
